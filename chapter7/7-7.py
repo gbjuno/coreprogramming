@@ -4,8 +4,7 @@ def reverse(myDict):
     revDict = {}
     for i in myDict:
         revDict[myDict[i]] = i
-    return revDict 
-        
+    return revDict
 
 def main():
     myDict = dict(zip(list('1234'),list('abcd')))
